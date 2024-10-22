@@ -1,0 +1,27 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Nunito:ital,wght@0,345;1,345&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 345;
+  font-style: normal;
+}
+
+.shadow-dark-manual {
+  box-shadow: 0px 0px 60px black;
+}
+.shadow-blue-manual {
+  box-shadow: 0px 0px 40px #97b0d0;
+}
+
+:root {
+  @apply font-nunito;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
