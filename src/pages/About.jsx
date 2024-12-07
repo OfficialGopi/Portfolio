@@ -15,7 +15,7 @@ const About = () => {
         <h1 className="text-4xl font-semibold">About Me</h1>
         <span className="text-base sm:text-lg md:text-xl">
           I am a passionate third-year student pursuing a Bachelor of Technology
-          in Information Technology. My journey into web development began in
+          in Computer Science and Engineering. My journey into web development began in
           mid-2023, and since then, I've been focused on honing my skills while
           exploring the vast potential of this field.
           <br /> Specializing in backend development, I’m now eager to expand my
