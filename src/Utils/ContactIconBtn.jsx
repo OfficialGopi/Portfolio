@@ -6,7 +6,7 @@ const ContactIconBtn = ({ Icon, href }) => {
       <a
         href={href}
         target="_blank"
-        className="h-14 w-14 hover:p-[0.4rem] border border-black dark:border-slate-200 transition-all rounded-md p-2 "
+        className="h-14 w-14 hover:scale-95 border border-black dark:border-slate-200 transition-all rounded-md p-2 "
       >
         <button className="h-full w-full">
           <Icon />
