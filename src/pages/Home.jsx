@@ -36,14 +36,14 @@ const Home = () => {
           <div className="dark:text-slate-300 flex flex-col text-3xl my-4 sm:w-1/2 w-3/4">
             <span className=" dark:text-slate-300 lg:text-xl md:text-lg text-base flex-col  flex my-4">
               <span> Hello there, I'm</span>
-              <span className="font-semibold text-xl md:text-2xl lg:text-3xl">
+              <span className="font-bold text-xl md:text-2xl lg:text-3xl">
                 {"</>"}Gopikanta Mondal{"</>"}
               </span>
             </span>
             <div>
               <span
                 ref={el}
-                className="font-semibold text-3xl md:text-4xl "
+                className="font-semibold font-sans dark:text-white dark:drop-shadow-blue-manual drop-shadow-dark-manual shadow-slate-50 text-3xl md:text-4xl "
               ></span>
             </div>
             <br />
@@ -53,7 +53,7 @@ const Home = () => {
             </span>
             <Contact />
           </div>
-          <div className="md:w-60 rounded-[100%] overflow-hidden md:h-60 sm:h-40 sm:w-40 h-32 w-32 shadow-blue-manual dark:shadow-dark-manual">
+          <div className="md:w-60 rounded-[100%] overflow-hidden md:h-60 sm:h-40 sm:w-40 h-32 w-32 dark:shadow-blue-manual shadow-dark-manual">
             <img src={Gopi} className="w-full  h-full object-cover " />
           </div>
         </div>
