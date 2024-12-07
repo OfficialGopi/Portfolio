@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Gopi from "./../assets/gopi.jpg";
 import Contact from "./../components/Contact";
 import Typed from "typed.js";
+import Download from "../assets/icon/Download";
 
 const Home = () => {
   const el = useRef(null);
@@ -36,14 +37,14 @@ const Home = () => {
           <div className="dark:text-slate-300 flex flex-col text-3xl my-4 sm:w-1/2 w-3/4">
             <span className=" dark:text-slate-300 lg:text-xl md:text-lg text-base flex-col  flex my-4">
               <span> Hello there, I'm</span>
-              <span className="font-bold text-xl md:text-2xl lg:text-3xl">
+              <span className="font-bold text-lg md:text-xl lg:text-2xl">
                 {"</>"}Gopikanta Mondal{"</>"}
               </span>
             </span>
             <div>
               <span
                 ref={el}
-                className="font-semibold font-sans dark:text-white dark:drop-shadow-blue-manual drop-shadow-dark-manual shadow-slate-50 text-3xl md:text-4xl "
+                className="font-semibold z-0 font-sans dark:text-white dark:drop-shadow-blue-manual drop-shadow-dark-manual shadow-slate-50 text-lg md:text-3xl "
               ></span>
             </div>
             <br />
@@ -51,6 +52,15 @@ const Home = () => {
               Passionate full stack dev stepping forward to try to get into
               DevOps. Technology Lover
             </span>
+            <div className="my-4">
+              <a
+                href="#home"
+                className=" text-base max-w-[160px] p-2 gap-2 font-semibold  justify-center  md:hidden flex items-center  border-2 border-black rounded-xl hover:bg-black hover:text-white transition-colors duration-300"
+              >
+                <Download />
+                <span>My Resume</span>
+              </a>
+            </div>
             <Contact />
           </div>
           <div className="md:w-60 rounded-[100%] overflow-hidden md:h-60 sm:h-40 sm:w-40 h-32 w-32 dark:shadow-blue-manual shadow-dark-manual">

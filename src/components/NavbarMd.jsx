@@ -5,12 +5,12 @@ const NavbarMd = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
   return (
     <>
-      <nav className="w-full transition-all flex  bg-gradient-to-r from-gray-200 via-white to-gray-200 dark:bg-gradient-to-r    dark:from-black dark:via-slate-950 dark:to-gray-950 bg-opacity-95  justify-between p-3  items-center gap-2">
+      <nav className="w-full h-full sticky  transition-all flex z-20 top-0  bg-gradient-to-r from-gray-100 via-white to-gray-100 dark:bg-gradient-to-r    dark:from-black dark:via-slate-950 dark:to-gray-950 bg-opacity-95  justify-between p-3  items-center gap-2">
         <span className="font-extrabold italic text-2xl font-sans">
           @official.gopi
         </span>
         <button
-          className="flex flex-col h-full items-center rotate-x-180 gap-2 transition-transform"
+          className="flex flex-col h-[30px] items-center rotate-x-180 gap-2 transition-transform"
           style={
             hamburgerOpen
               ? {
@@ -25,14 +25,9 @@ const NavbarMd = () => {
           <Up />
         </button>
       </nav>
-
       <Hamburger
         setHamburgerClose={() => setHamburgerOpen(false)}
         hamburgerOpen={hamburgerOpen}
-        style={{
-          height: hamburgerOpen ? "auto" : "0",
-          overflow: "hidden",
-        }}
       />
     </>
   );

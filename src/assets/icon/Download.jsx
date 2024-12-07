@@ -4,15 +4,20 @@ const Download = () => {
   return (
     <>
       <svg
-        stroke="currentColor"
-        fill="currentColor"
-        stroke-width="0"
-        viewBox="0 0 24 24"
-        className="h-full"
         xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="lucide lucide-download"
       >
-        <path fill="none" d="M0 0h24v24H0z"></path>
-        <path d="M18 15v3H6v-3H4v3c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-3h-2zm-1-4-1.41-1.41L13 12.17V4h-2v8.17L8.41 9.59 7 11l5 5 5-5z"></path>
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+        <polyline points="7 10 12 15 17 10" />
+        <line x1="12" x2="12" y1="15" y2="3" />
       </svg>
     </>
   );
