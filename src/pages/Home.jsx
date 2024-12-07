@@ -30,21 +30,21 @@ const Home = () => {
   return (
     <>
       <div
-        className=" flex flex-col gap-12 items-center  py-24 sm:p-24"
+        className=" flex flex-col gap-12 items-center  py-24 sm:px-20"
         id="home"
       >
         <div className="w-full flex sm:flex-row flex-col-reverse sm:justify-center items-center gap-4 sm:gap-24">
           <div className="dark:text-slate-300 flex flex-col text-3xl my-4 sm:w-1/2 w-3/4">
-            <span className=" dark:text-slate-300 lg:text-xl md:text-lg text-base flex-col  flex my-4">
+            <span className=" dark:text-slate-300 lg:text-lg md:text-md text-base flex-col  flex my-4">
               <span> Hello there, I'm</span>
-              <span className="font-bold text-lg md:text-xl lg:text-2xl">
+              <span className="font-bold text-md md:text-[1.12rem] lg:text-xl">
                 {"</>"}Gopikanta Mondal{"</>"}
               </span>
             </span>
             <div>
               <span
                 ref={el}
-                className="font-semibold z-0 font-sans dark:text-white dark:drop-shadow-blue-manual drop-shadow-dark-manual shadow-slate-50 text-lg md:text-3xl "
+                className="font-semibold z-0 font-sans dark:text-white dark:drop-shadow-blue-manual drop-shadow-dark-manual shadow-slate-50 text-lg md:text-2xl "
               ></span>
             </div>
             <br />
@@ -63,7 +63,7 @@ const Home = () => {
             </div>
             <Contact />
           </div>
-          <div className="md:w-60 rounded-[100%] overflow-hidden md:h-60 sm:h-40 sm:w-40 h-32 w-32 dark:shadow-blue-manual shadow-dark-manual">
+          <div className="lg:w-60 rounded-[100%] overflow-hidden md:h-44 md:w-44 lg:h-60 sm:h-40 sm:w-40 h-32 w-32 dark:shadow-blue-manual shadow-dark-manual">
             <img src={Gopi} className="w-full  h-full object-cover " />
           </div>
         </div>
