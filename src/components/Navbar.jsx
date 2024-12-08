@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         <div className="h-full">
           <a
-            href="#home"
+            href="/resume.pdf"
             target="_blank"
             className="h-full px-5 py-1 gap-2 font-semibold   flex items-center rounded-xl border border-black dark:border-white hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black   transition-colors duration-300"
           >

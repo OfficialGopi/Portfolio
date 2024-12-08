@@ -54,7 +54,7 @@ const Home = () => {
             </span>
             <div className="my-4">
               <a
-                href="#home"
+                href="/resume.pdf"
                 className=" text-base max-w-[160px] p-2 gap-2 font-semibold  justify-center  md:hidden flex items-center  rounded-xl border border-black dark:border-white hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black transition-colors duration-300"
               >
                 <Download />
