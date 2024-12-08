@@ -17,7 +17,8 @@ const Navbar = () => {
         <div className="h-full">
           <a
             href="#home"
-            className="h-full px-5 py-1 gap-2 font-semibold   flex items-center  border-2 border-black rounded-xl hover:bg-black hover:text-white transition-colors duration-300"
+            target="_blank"
+            className="h-full px-5 py-1 gap-2 font-semibold   flex items-center rounded-xl border border-black dark:border-white hover:bg-black dark:hover:bg-white hover:text-white dark:hover:text-black   transition-colors duration-300"
           >
             <Download />
             <span>My Resume</span>
