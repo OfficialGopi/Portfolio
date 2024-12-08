@@ -6,7 +6,7 @@ const Up = () => {
       <svg
         fill="currentColor"
         xmlns="http://www.w3.org/2000/svg"
-        className="h-10"
+        className="h-full"
         viewBox="0 0 462.847 462.847"
       >
         <g>

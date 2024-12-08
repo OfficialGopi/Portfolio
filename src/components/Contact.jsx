@@ -4,15 +4,21 @@ import ContactIconBtn from "../Utils/ContactIconBtn";
 import Mail from "../assets/icon/Mail";
 import Ig from "../assets/icon/Ig";
 import Li from "../assets/icon/Li";
+import {
+  email,
+  githubProfile,
+  instagramProfile,
+  linkedinProfile,
+} from "../constants/constants";
 
 const Contact = () => {
   return (
     <>
       <div className="flex gap-2">
-        <ContactIconBtn Icon={GH} href={import.meta.env.VITE_APP_GITHUB} />
-        <ContactIconBtn Icon={Li} href={import.meta.env.VITE_APP_LINKEDIN} />
-        <ContactIconBtn Icon={Mail} href={"mailto:official.gopi@outlook.com"} />
-        <ContactIconBtn Icon={Ig} href={import.meta.env.VITE_APP_INSTAGRAM} />
+        <ContactIconBtn Icon={GH} href={githubProfile} />
+        <ContactIconBtn Icon={Li} href={linkedinProfile} />
+        <ContactIconBtn Icon={Mail} href={`mailto:${email}`} />
+        <ContactIconBtn Icon={Ig} href={instagramProfile} />
       </div>
     </>
   );
