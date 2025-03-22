@@ -1,13 +1,5 @@
 export const projects = [
   {
-    imgUrl: `https://res.cloudinary.com/dko5qxqqi/image/upload/v1733612403/portfolio-website/project%20photos/college-management-system.png`,
-    title: "College Management System",
-    description:
-      "A college management system is an ERP solution that enables the institutes to conduct online admissions, generate reports, create ID cards, enable online communication, manage curriculum, time tables and conduct online evaluations, track student progress, conduct data analysis, teach remotely, and handle enquiries and etc...",
-    repoLink: "https://github.com/OfficialGopi/college-management-system",
-    demoLink: "",
-  },
-  {
     imgUrl: `https://res.cloudinary.com/dko5qxqqi/image/upload/v1733615742/portfolio-website/project%20photos/full-stack-instagram-clone.png`,
     title: "Full Stack Instagram Clone",
     description:
