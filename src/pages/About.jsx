@@ -19,7 +19,7 @@ const About = () => {
           mid-2023, and since then, I've been focused on honing my skills while
           exploring the vast potential of this field.
           <br /> Specializing in backend development, I’m now eager to expand my
-          expertise by transitioning into <i>DevOps</i>. This shift feels like a
+          expertise by transitioning into <i>Data Science</i>. This shift feels like a
           natural evolution in my career, presenting an exciting opportunity to
           deepen my knowledge of building, deploying, and automating dynamic,
           scalable applications with greater efficiency.
