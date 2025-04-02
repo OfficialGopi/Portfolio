@@ -50,7 +50,7 @@ const Home = () => {
             <br />
             <span className="font-light  text-pretty  dark:text-slate-300 my-2 text-base md:text-xl">
               Passionate full stack dev stepping forward to try to get into
-              DevOps. Technology Lover
+              Data Science. Technology Lover
             </span>
             <div className="my-4">
               <a
