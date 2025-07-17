@@ -1,10 +1,9 @@
 export const projects = [
   {
-    imgUrl: `https://res.cloudinary.com/dko5qxqqi/image/upload/v1733615742/portfolio-website/project%20photos/full-stack-instagram-clone.png`,
-    title: "Full Stack Instagram Clone",
-    description:
-      "Built a dynamic Instagram clone using the MERN stack (MongoDB, Express.js, React, Node.js) with WebRTC for video and audio calling and Socket.IO for real-time chatting. The application features secure user authentication (Google and email/password), scalable media storage via Cloudinary, and a responsive design. Users can create, edit, and delete posts, comment, like, follow/unfollow others, and personalize profiles. Advanced features include video/audio calls, real-time messaging, and customizable account settings.This project highlights proficiency in full-stack web development, integrating WebRTC and Socket.IO for real-time communication, ensuring a seamless user experience, and demonstrating the ability to create scalable, feature-rich social media platforms.",
-    repoLink: "https://github.com/OfficialGopi/full-stack-instagram-clone",
-    demoLink: "",
+    imgUrl: `https://res.cloudinary.com/dko5qxqqi/image/upload/v1752750083/Screenshot_from_2025-07-17_16-29-42_bpltvi.png`,
+    title: "Real Time Chat App",
+    description:"The Real-Time Chat App is a full-stack messaging platform built with the MERN stack and Socket.io to enable instant one-on-one communication with live message updates. It features secure JWT-based authentication, persistent chat history in MongoDB, and a clean, responsive UI using Material UI. The app handles real-time events efficiently, offering a smooth user experience across devices while showcasing strong backend and frontend integration",
+    repoLink: "https://github.com/OfficialGopi/chatapp",
+    demoLink: "https://chatty.officialgopi.xyz",
   },
 ];
